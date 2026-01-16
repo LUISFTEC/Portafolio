@@ -13,6 +13,8 @@ export const router = createBrowserRouter([
             },
         ]
     },
-],
-);
+], {
+    basename: "/Portafolio"  // <--- ¡ESTO ES LO QUE FALTABA!
+});
+
 export default router;

@@ -31,8 +31,8 @@ export const Inicio = () => {
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-4">
               {/* Descargar CV */}
               <a
-                href="img/cv_pierofernandez2025.pdf"
-                download="cv_pierofernandez2025.pdf"
+                href="img/cv.pdf"
+                download="cv.pdf"
                 className="flex items-center gap-2 px-6 py-3 border-2 border-white rounded-lg bg-black text-white hover:bg-white hover:text-black transition-colors"
               >
                 <FaDownload className="w-4 h-4" />
